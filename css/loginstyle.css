@@ -1,0 +1,28 @@
+.img{
+    height: 100vh;
+}
+.container2 {
+    padding: 75px 75px;
+
+}
+.btn1{
+    color: #f0f6f7;
+    background-color: #219EBC;
+}
+.head {
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: bolder;
+}
+.head1 {
+    color: #BBBBBB;
+    font-family: "Montserrat";
+}
+.label {
+    color: #98A0AC;
+}
+.googleimg {
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 20px;
+}
