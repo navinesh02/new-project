@@ -41,11 +41,11 @@
             <label class="sidetext" for="scales">Accessories</label>
         </div>
     </div>
-    <script>
+    <!-- <script>
         var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-  target: '#navbar-example'
-})
-    </script>
+            target: '#navbar-example'
+        })
+    </script> -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -56,7 +56,9 @@
                 </div>
                 <div class="modal-body">
                     <div class="mobile1">
+                        <img src="/img/la.png" class="leftarrow">
                         <img src="./img/mobilesam.png" class="w-25 h-25">
+                        <img src="./img/ra.png" class="rightarrow">
                     </div>
 
                     <div class="container ">
@@ -64,26 +66,60 @@
                             <div class="mt-5 fontport">
                                 <div data-bs-spy="scroll" data-bs-target="#staticBackdrop" data-bs-offset="0"
                                     class="scrollspy-example" tabindex="0">
-                                    <h class="fw-bold">Color</h>
-                                    <div class="bulleticon1">
-                                        <input type="radio" name="gender" value="male"> Black<br>
-                                        <input type="radio" name="gender" value="male"> White<br>
-                                        <input type="radio" name="gender" value="male"> Blue<br>
 
-                                    </div><br>
-                                    <h class="fw-bold lefttext">Display</h>
-                                    <p class="righttext">Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz</p>
-                                    <p class="righttext">20:9 aspect ratio</p>
-                                    <p class="righttext">FHD+ (1080 x 2400) OLED at 429 ppi</p>
-                                    <p class="righttext">Corning® Gorilla® Glass 3™ cover glass</p>
-                                    <p class="righttext">Always-on display with At a Glance and Now Playing</p>
-                                    <h class="fw-bold lefttext">Dimensions & Weight</h>
-                                    <p class="righttext">6.0 height x 2.8 width x 0.35 depth (in)</p>
-                                    <p class="righttext">178g</p>
-                                    <h class="fw-bold lefttext">Memory</h>
-                                    <p class="righttext">6 GB RAM</p>
-                                    <h class="fw-bold lefttext">Storage</h>
-                                    <p class="righttext">128 GB RAM</p>
+                                    <div class="col">
+                                        <div class="row row2">
+                                            <div class="col-2">
+                                                <h class="fw-bold lefttext">Color</h>
+                                            </div>
+                                            <div class="col-10 bulleticon1">
+                                                <!-- <div class="bulleticon1"> -->
+                                                <input type="radio" name="gender" value="male"> Black<br>
+                                                <input type="radio" name="gender" value="male"> White<br>
+                                                <input type="radio" name="gender" value="male"> Blue<br>
+
+                                                <!-- </div> -->
+                                            </div>
+                                            <div class="col-2">
+                                                <h class="fw-bold lefttext">Display</h>
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="righttext">Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz
+                                                </p>
+                                                <p class="righttext">20:9 aspect ratio</p>
+                                                <p class="righttext">FHD+ (1080 x 2400) OLED at 429 ppi</p>
+                                                <p class="righttext">Corning® Gorilla® Glass 3™ cover glass</p>
+                                                <p class="righttext">Always-on display with At a Glance and Now Playing
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <h class="fw-bold lefttext">Dimensions & Weight</h>
+
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="righttext">6.0 height x 2.8 width x 0.35 depth (in)</p>
+                                                <p class="righttext">178g</p>
+
+                                            </div>
+                                            <div class="col-2">
+                                                <h class="fw-bold lefttext">Memory</h>
+
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="righttext">6 GB LPDDR5 RAM</p>
+
+                                            </div><br>
+                                            <div class="col-2">
+                                                <h class="fw-bold lefttext">Storage</h>
+
+                                            </div>
+                                            <div class="col-10">
+                                                <p class="righttext">128 GB STORAGE</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +133,8 @@
                             <span style="float:left ;font-size:100%;color:orange;">&starf;</span>
                             <span style="float:left ;font-size:100%;color:orange;">&starf;</span>
                             <span class="smart">(1.2k)</span></span>
-                        <button type="button" class="btn btn-primary btnbuy" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
+                        <button type="button" class="btn btn-primary btnbuy" data-bs-toggle="modal"
+                            data-bs-target="#modalbill">Buy Now</button>
 
                     </div>
                     <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
@@ -130,13 +167,14 @@
                                                 <span style="float:left ;font-size:100%;color:orange;">&starf;</span>
                                                 <span style="float:left ;font-size:100%;color:orange;">&starf;</span>
                                                 <span class="smart">(1.2k)</span></span>
-                                            <div class="buynow"> <button type="button"
-                                                    class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button></div>
+                                            <div class="buynow"> <button type="button" class="btn btn-primary btn-sm"
+                                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <hr class="lines">
-                                <div>
+                                <div class="scrol">
                                     <h class="fw-bold left">Color</h>
                                     <div class="bulleticon">
                                         <input type="radio" name="gender" value="male"> Black<br>
@@ -148,13 +186,14 @@
                                         <li class="bullet">Blue</li> -->
                                     </div><br>
                                     <h class="fw-bold left">Display</h>
-                                    <p class="right">Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz, 20:9 aspect ratio</p>
+                                    <p class="right">Full-screen 6.1-inch (156 mm)1 display, up to 60 Hz, 20:9 aspect
+                                        ratio</p>
                                     <p class="right"></p>
                                     <p class="right">FHD+ (1080 x 2400) OLED at 429 ppi</p>
                                     <p class="right">Corning® Gorilla® Glass 3™ cover glass</p>
                                     <p class="right">Always-on display with At a Glance and Now Playing</p>
                                     <h class="fw-bold left">Dimensions & Weight</h>
-                                    <p class="right">6.0 height x 2.8 width x 0.35 depth (in)  & 178g</p>
+                                    <p class="right">6.0 height x 2.8 width x 0.35 depth (in) & 178g</p>
                                     <p class="right"></p>
                                     <h class="fw-bold left">Memory</h>
                                     <p class="right">6 GB RAM</p>
@@ -163,7 +202,7 @@
                                 </div>
 
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -175,144 +214,208 @@
     </div>
     </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="modalbill" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content modalcont">
-        <div class="modal-header headmodal">
-          <h5 class="modal-title" id="exampleModalLabel">Buy Pixel 5</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                <div class="sty">
-                    <img src="./img/Group 3762.png">
-                    <h class="fw-bold">Pixel 5</h>
-                    <a class="mobilespec1">Black | 128GB</a> 
-                    <a class="mobilespec2">1 Qty</a> 
-                    <a class="mobilespec fw-bold">$499.00</a>
-                </div> 
-                <div class="row mt-3 my-3 border2">
-                  <div> <label for="inputEmail4" class="textcol" >Add Address</label>
-                    <button type="button" class="btn btn-light savebtn">Save Address</button>
-                    
+    <!-- Modal -->
+    <div class="modal fade" id="modalbill" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modalcont">
+                <div class="modal-header headmodal">
+                    <h5 class="modal-title" id="exampleModalLabel">Buy Pixel 5</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                    <div class="col mt-3">
-                        <label for="inputEmail4" class="form-label">Name</label>
-                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="sty">
+                                    <img src="./img/Group 3762.png">
+                                    <h class="fw-bold">Pixel 5</h>
+                                    <a class="mobilespec1">Black | 128GB</a>
+                                    <a class="mobilespec2">1 Qty</a>
+                                    <a class="mobilespec fw-bold">$499.00</a>
+                                </div>
+                                <div class="row row1 mt-3 my-3 border2">
+                                    <div> <label for="inputEmail4" class="textcol">Add Address</label>
+                                        <button type="button" class="btn btn-light savebtn">Save Address</button>
+
+                                    </div>
+                                    <div class="col mt-3">
+                                        <label for="inputEmail4" class="form-label">Name</label>
+                                        <input type="text" class="form-control" placeholder="First name"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col mt-3">
+                                        <label for="inputEmail4" class="form-label">Contact Number</label>
+                                        <input type="text" class="form-control" placeholder="99999999999"
+                                            aria-label="Last name">
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <label for="inputAddress" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="1234 Main St">
+                                    </div>
+                                    <div class="col-6 mt-3">
+                                        <label for="inputState" class="form-label">City</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Select City</option>
+                                            <option>Chennai</option>
+                                            <option>Madurai</option>
+                                            <option>Trichy</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 mt-3">
+                                        <label for="inputState" class="form-label">Country</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Select Country</option>
+                                            <option>India</option>
+                                            <option>Srilanka</option>
+                                            <option>China</option>
+                                            <option>Nepal</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 invoice">
+                                <label for="inputState" class="textcol lineh mt-4">INVOICE SUMMARY</label>
+                                <div class="col lineh mt-3">
+                                    <h class="textcol">Actual amount</h>
+                                    <h class="pricer">$559.00</h>
+                                </div><br>
+                                <div class="col lineh">
+                                    <h class="textcol">Discount</h>
+                                    <h class="pricer">$60.00</h>
+                                </div><br>
+                                <div class="col lineh">
+                                    <h class="textcol">Billing amount</h>
+                                    <h class="pricer">$499.00</h>
+                                </div><br>
+                                <div class="col lineh">
+                                    <h class="textcol" class="fw-bold">Total amount</h>
+                                    <h class="fw-bold pricer">$499.00</h>
+                                </div><br>
+                                <div class="d-grid gap-2 lineh">
+                                    <button type="button" class="btn btn-primary paybtn">Pay $499.00</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col mt-3">
-                        <label for="inputEmail4" class="form-label">Contact Number</label>
-                      <input type="text" class="form-control" placeholder="99999999999" aria-label="Last name">
-                    </div>
-                    <div class="col-12 mt-3">
-                        <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                      </div>
-                      <div class="col-6 mt-3">
-                        <label for="inputState" class="form-label">City</label>
-                        <select id="inputState" class="form-select">
-                          <option selected>Select City</option>
-                          <option>Chennai</option>
-                          <option>Madurai</option>
-                          <option>Trichy</option>
-                        </select>
-                      </div>
-                      <div class="col-6 mt-3">
-                        <label for="inputState" class="form-label">Country</label>
-                        <select id="inputState" class="form-select">
-                          <option selected>Select Country</option>
-                          <option>India</option>
-                          <option>Srilanka</option>
-                          <option>China</option>
-                          <option>Nepal</option>
-                        </select>
-                      </div>
-                  </div>   
                 </div>
-                <div class="col-lg-3 invoice">
-                    <label for="inputState" class="textcol lineh mt-4">INVOICE SUMMARY</label>
-                    <div class="col lineh mt-3">
-                      <h class="textcol">Actual amount</h>
-                      <h class="pricer">$559.00</h>
-                    </div><br>
-                    <div class="col lineh">
-                        <h class="textcol">Discount</h>
-                        <h  class="pricer">$60.00</h>
-                      </div><br>
-                      <div class="col lineh">
-                        <h class="textcol">Billing amount</h>
-                        <h class="pricer">$499.00</h>
-                      </div><br>
-                      <div class="col lineh">
-                        <h class="textcol" class="fw-bold">Total amount</h>
-                        <h class="fw-bold pricer">$499.00</h>
-                      </div><br>
-                      <div class="d-grid gap-2 lineh">
-                        <button type="button" class="btn btn-primary paybtn">Pay $499.00</button>
-                      </div>
-                </div>
-              </div>
-          </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 
     <div class="container cardcont">
         <div class="row">
             <div class="col-lg-4 ">
-                <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <!-- <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="card">
                         <img class="card-img-top" src="./img/mobilesam.png" alt="Card image cap">
                     </div>
                 </a>
                 <div class="w3-container w3-center cardhov ">
-                    <p class="pixeltext">Pixel 5 <span class="pixelprice cardhov">$499</span></p>
-                    <p class="smart">Smart, powerful, helpful.
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-
-                    </p>
-
-                </div>
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
-                </div>
-            </div>
-            <div class="col-lg-4 ">
-                    <div class="card">
-                        <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
-
-                        <img class="card-img-top" src="./img/mobile.png" alt="Card image cap">
-                        </a>
+                    <div class="row">
+                        <div class="col-6 ptext">
+                            <p class="pixeltext"> Pixel 5</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="pixelprice fw-bold">$499</p><br>
+                        </div>
                     </div>
-                </a>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel 6 <span class="pixelprice">$599</span></p>
-                    <p class="smart">Smart
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
+                    <div class="row smartrow">
+                        <div class="col-6">
+                            <p class="smart">Smart, powerful, helpful.</p>
+                        </div>
+                        <div class="col-6">
+                            <span style="float:right ;font-size:100%;color:orange;">&starf;<span
+                                    class="smart">(1.2k)</span></span>
+                            <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
+                            <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
 
-                    </p>
+                        </div>
+             </div>
 
+        </div> -->
+                <div class="card">
+                    <div class="cardbackground">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/mobilesam.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 5</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$499</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart, powerful, helpful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
 
+            </div>
+
+            <div class="col-lg-4 ">
+                <div class="card">
+                    <div class="cardbackground">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/mobile.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 6</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$699</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 ">
-                <div class="card" style="background-color: #F7F7ED;">
+                <!-- <div class="card" style="background-color: #F7F7ED;">
                     <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
-                </a>
+                        <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
+                    </a>
 
                 </div>
                 <div class="w3-container w3-center cardhov">
@@ -327,160 +430,280 @@
 
                 </div>
                 <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                        Now</button>
 
+                </div> -->
+                <div class="card" style="background-color: #F7F7ED!important;">
+                    <div class="cardbackground" style="background-color: #F7F7ED!important;">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 6 Pro</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$699</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">powerful, helpful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 ">
-                <div class="card" style="background-color: #F7F7ED;">
-                    <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <div class="card" style="background-color: #F7F7ED!important;">
+                    <div class="cardbackground" style="background-color: #F7F7ED!important;">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/mobile.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 6 Pro</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$699</label>
+                                </div>
 
-                    <img class="card-img-top" src="./img/mobile.png" alt="Card image cap">
-                </a>
-
-                </div>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel 6 Pro <span class="pixelprice">$599</span></p>
-                    <p class="smart"> powerful, Smart.
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-
-                    </p>
-
-                </div>
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
-
-                </div>
-            </div>
-            <div class="col-lg-4 ">
-                <div class="card">
-                    <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-
-                    <img class="card-img-top" src="./img/mobilesam.png" alt="Card image cap">
-                </a>
-
-                </div>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel 5 <span class="pixelprice">$499</span></p>
-                    <p class="smart">Smart, powerful, helpful.
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-
-                    </p>
-
-                </div>
-                
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
-
-                </div>
-            </div>
-            <div class="col-lg-4 ">
-                <div class="card">
-                    <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-
-                    <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
-               </a>
-                </div>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel 5 <span class="pixelprice">$499</span></p>
-                    <p class="smart">Smart, powerful, helpful.
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-
-                    </p>
-
-                </div>
-                
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
-
-                </div>
-            </div>
-            <div class="col-lg-4 ">
-                <div class="card">
-                    <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-
-                    <img class="card-img-top" src="./img/mobile.png" alt="Card image cap">
-                    </a>
-                </div>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel 6 <span class="pixelprice">$599</span></p>
-                    <p class="smart">Smart
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-
-                    </p>
-
-                </div>
-                
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
-
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart, powerful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 ">
                 <div class="card">
-                    <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <div class="cardbackground">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 6</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$699</label>
+                                </div>
 
-                    <img class="card-img-top" src="./img/mobilesam.png" alt="Card image cap">
-                     </a>
-                </div>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel 6 Pro <span class="pixelprice">$699</span></p>
-                    <p class="smart"> powerful, Smart.
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-
-                    </p>
-
-                </div>
-                
-                <div class="buybtn mt-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
-
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 ">
-                <div class="card" style="background-color: #F7F7ED;">
-                    <a class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <div class="card">
+                    <div class="cardbackground">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/mobilesam.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 5</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$499</label>
+                                </div>
 
-                    <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
-                    </a>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart, powerful, helpful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="w3-container w3-center cardhov">
-                    <p class="pixeltext">Pixel5 <span class="pixelprice">$499</span></p>
-                    <p class="smart">Smart, powerful, helpful.
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;<span
-                                class="smart">(1.2k)</span></span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
-                        <span style="float:right ;font-size:100%;color:orange;">&starf;</span>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="card">
+                    <div class="cardbackground">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/mobilesam.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 5</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$499</label>
+                                </div>
 
-                    </p>
-
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart, powerful, helpful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-            <div class="buybtn mt-2">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalbill">Buy Now</button>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="card">
+                    <div class="cardbackground">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/pixel.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 5</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$499</label>
+                                </div>
 
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart, powerful, helpful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="col-lg-4 ">
+                <div class="card" style="background-color: #F7F7ED!important;">
+                    <div class="cardbackground" style="background-color: #F7F7ED!important;">
+                        <div class="cardimg">
+                            <img class="card-img-top" src="./img/phone2.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-6 ptext">
+                                <p class="pixeltext"> Pixel 5</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="pixel4">
+                                    <label class="pixelprice fw-bold">$499</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row justify-content-between  align-items-center smartrow">
+                            <div class="col-6">
+                                <label class="smart">Smart, powerful, helpful.</label>
+                                <!-- <p class="smart">Smart, powerful, helpful.</p> -->
+                                <div class="viewd"><a href="" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">view details</a></div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary form-control buybtn1"
+                                    data-bs-toggle="modal" data-bs-target="#modalbill">Buy
+                                    Now</button>
+                                <div> <img src="./img/5-star-rating-icon-26.jpg" class="star">
+                                    <span class="smartrate">(1.2k)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
         </div>
 
         <div class="heading">
-            <div class="end mt-5">
+            <div class="end">
                 <img src="./img/stars@2x (2).png" class="starimg">
                 <h class="endtext">Product end here</h>
                 <img src="./img/stars@2x.png" class="starimg">
