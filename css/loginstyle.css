@@ -5,6 +5,15 @@
     padding: 75px 75px;
 
 }
+.loginbtn {
+    color: #ffffff!important;
+    background-color: #219EBC!important;
+    border-color: #219EBC!important;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+
+}
 .btn1{
     color: #f0f6f7;
     background-color: #219EBC;
