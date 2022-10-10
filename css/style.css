@@ -87,7 +87,7 @@
 
 .buttonnav {
 
-    margin-right: 28px!important;
+    margin-right: 28px !important;
     float: right;
 }
 
@@ -689,64 +689,67 @@ input[type='radio']:checked:after {
     .buttonnav {
         margin-left: 145px;
     }
+
     .star {
-        margin-left: -35px!important;
+        margin-left: -35px !important;
 
     }
-    
-.cardpad {
-    /* padding: 5px;
+
+    .cardpad {
+        /* padding: 5px;
     margin-left: 100px;
     
     padding-left: 20px;
     margin-right: 25px; */
-    padding-left: 20px;
+        padding-left: 20px;
 
 
-}
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .star {
-        margin-left: -35px!important;
+        margin-left: -35px !important;
 
     }
 
     .buttonnav {
         /* display: none!important; */
     }
- 
+
 }
+
 @media only screen and (width: 768px) {
     .buttonnav {
-        display: none!important;
+        display: none !important;
     }
+
     .buybtn1 {
         margin-left: -33px;
 
     }
 }
+
 @media only screen and (min-width: 992px) {
     .star {
-        margin-left: -40px!important;
+        margin-left: -40px !important;
 
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .star {
-        margin-left: -9px!important;
+        margin-left: -9px !important;
 
     }
+
     .cardpad {
 
-        padding-left: 0px!important;
-    
-    
-    }
+        padding-left: 0px !important;
 
-    .buybtn1 {
 
     }
-    
+
+    .buybtn1 {}
+
 }

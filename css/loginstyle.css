@@ -1,35 +1,42 @@
-.img{
+.img {
     height: 100vh;
 }
+
 .container2 {
     padding: 75px 75px;
 
 }
+
 .loginbtn {
-    color: #ffffff!important;
-    background-color: #219EBC!important;
-    border-color: #219EBC!important;
+    color: #ffffff !important;
+    background-color: #219EBC !important;
+    border-color: #219EBC !important;
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: bold;
 
 }
-.btn1{
+
+.btn1 {
     color: #f0f6f7;
     background-color: #219EBC;
 }
+
 .head {
     font-family: "Montserrat";
     font-size: 24px;
     font-weight: bolder;
 }
+
 .head1 {
     color: #BBBBBB;
     font-family: "Montserrat";
 }
+
 .label {
     color: #98A0AC;
 }
+
 .googleimg {
     margin-top: 20px;
     position: absolute;
