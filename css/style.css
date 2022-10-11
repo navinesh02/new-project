@@ -687,12 +687,15 @@ input[type='radio']:checked:after {
     }
 
     .buttonnav {
-        margin-left: 145px;
+        margin-left: 133px;
     }
 
     .star {
         margin-left: -35px !important;
 
+    }
+    .collapse {
+        background-color: #fff!important;
     }
 
     .cardpad {
@@ -728,6 +731,14 @@ input[type='radio']:checked:after {
         margin-left: -33px;
 
     }
+    
+    .collapse {
+        background-color: #fff!important;
+        margin: -7px;
+
+    }
+    
+    
 }
 
 @media only screen and (min-width: 992px) {
@@ -735,6 +746,7 @@ input[type='radio']:checked:after {
         margin-left: -40px !important;
 
     }
+    
 }
 
 @media only screen and (min-width: 1200px) {
@@ -746,10 +758,5 @@ input[type='radio']:checked:after {
     .cardpad {
 
         padding-left: 0px !important;
-
-
     }
-
-    .buybtn1 {}
-
 }
